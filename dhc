@@ -1,3 +1,4 @@
+script_key="qUmjOlNnFTnJxsUAQTSUYtFtCsMTcTjz";
 getgenv().config = {
     hostIds = {
         4955594153,
@@ -14,9 +15,8 @@ getgenv().config = {
        3982267769,
        4786734068,
     },
-    hostGui = false,
+    hostGui = false, -- host gui isn't currently working (we are planning something big)
     altFps = 8,
-    prefix = "/",
     altGui = true,
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3fb15b126d445566118d405d270d2894.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4f60ae79f955f19f6efe202b4d930f2f.lua"))()
