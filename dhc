@@ -1,2 +1,22 @@
-script_key="ucMBOLqnyGkbNbBFbbbsUtktiybyYYZL";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1b3e853437d307a4c2557a713302a989.lua"))()
+getgenv().config = {
+    hostIds = {
+        4955594153,
+    },
+    altIds = {
+       4116967532,
+       3339427622,
+       4786735592,
+       4768780621,
+       3238579581,
+       4142807130,
+       4095576713,
+       4331421425,
+       3982267769,
+       4786734068,
+    },
+    hostGui = false,
+    altFps = 8,
+    prefix = "/",
+    altGui = true,
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3fb15b126d445566118d405d270d2894.lua"))()
