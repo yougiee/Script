@@ -1,13 +1,20 @@
 getgenv().Settings = {
-    ['host'] = 123456789, -- host user id
+    ['host'] = 4955594153, -- host user id
     ['fps'] = 3, -- fps amount for alts!
     ['prefix'] = '/', -- user prefix
 }
 
 getgenv().Alts = { -- you can put as many alts as you want 
-    123456789, 
-    123456789,
-    123456789,
-}
+         4116967532,
+         3339427622,
+         4786735592,
+         4768780621,
+         3238579581,
+         4142807130,
+         4095576713,
+         4331421425,
+         3982267769,
+         4786734068,
+}  
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/656pro/Control/main/ControlFRee'))()
